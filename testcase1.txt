@@ -1,0 +1,18 @@
+Classes
+A 20
+B 15
+C 30
+D 40
+E 10
+F 50
+G 45
+H 35
+I 30
+J 20
+K 10
+L 10
+
+Rooms
+X 50
+Y 20
+Z 35
