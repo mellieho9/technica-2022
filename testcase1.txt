@@ -1,16 +1,16 @@
 Classes
-A 20
-B 15
-C 30
-D 40
-E 10
-F 50
-G 45
-H 35
-I 30
-J 20
-K 10
-L 10
+A 20 Roy
+B 15 Day
+C 30 Roy
+D 40 Tara
+E 10 Day
+F 50 Roy
+G 45 Day
+H 35 Tara
+I 30 Day
+J 20 Day
+K 10 Roy
+L 10 Day
 
 Rooms
 X 50
