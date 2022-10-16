@@ -1,3 +1,8 @@
+/*
+
+Script file you need to run on your local Google App Script to color code the newly generated schedule
+
+*/
 function ColorEvents() {
  
   var today = new Date();
