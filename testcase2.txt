@@ -1,3 +1,4 @@
+Tests having discussions and lectures of the same class, which cannot be scheduled at the same time.
 Classes
 CMSC131_Lect 34 Nelson CMSC131
 CMSC131_Disc 34 TA1 CMSC131
