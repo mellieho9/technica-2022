@@ -6,7 +6,7 @@ A Python algorithm that utilizes Z3-Solver to automatically assign the appropria
 - [x] Add in code to schedule classes in different days (MWF or TT) and durations (50-minute intervals on MWF or 75-minute intervals in TT)
 - [x] Increase the parameters to include professor who will teach the course
 - [x] Add in code to make separate schedules for lectures and discussions
-- [] Add in code to prevent putting small classes in big lecture halls
+- [x] Visualize results onto Google Calendar
 
 ## What's next  🧩
 - Add in code to schedule time slots for longer courses (i.e. labs that are over 75 minutes long)
@@ -20,5 +20,7 @@ A Python algorithm that utilizes Z3-Solver to automatically assign the appropria
 - Python
 - SAT Modulo Theories
 - Z3-Solver
+- Pandas
+- Google Calendar
 
 
