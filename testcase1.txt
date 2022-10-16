@@ -1,3 +1,4 @@
+Basic test case that demonstrates the functionality.
 Classes
 A 20 Roy
 B 15 Day
