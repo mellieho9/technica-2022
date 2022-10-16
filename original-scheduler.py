@@ -1,3 +1,9 @@
+'''
+
+This is the original scheduler code created by our mentors.
+We modified this scheduler to have it work on more test cases in update-schedule.py
+
+'''
 from z3 import *
 
 '''
