@@ -1,0 +1,19 @@
+This test case fails because the rooms is too small for some classes.
+Classes
+Math135 20 Roy Math135
+Math141 15 Day Math141
+Math140 30 Roy Math140
+Math240 40 Tara Math240
+Math241 10 Day Math241
+Math246 50 Roy Math246
+Math340 55 Day Math340
+Math341 35 Tara Math341
+Math310 30 Day Math310
+Math440 20 Day Math440
+Math410 10 Roy Math410
+Math640 10 Day Math640
+
+Rooms
+X 50
+Y 20
+Z 35
