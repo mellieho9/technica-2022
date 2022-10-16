@@ -126,23 +126,27 @@ def schedule(classes, rooms):
         size = vars[i][2]
         s.add(class_sizes[i] <= size)
 
+    valid = True
+
     # Check if a solution exists
     if s.check() == unsat:
-        raise(Exception("No valid schedule"))
+        valid = False;
+        print("No valid schedule")
 
     # Print the schedule
-    m = s.model()
-    for i in range(len(classes)):
-        room = m[vars[i][0]].as_long()
-        time = m[vars[i][1]].as_long()
-        days = m[vars[i][3]].as_long()
-        print("Class %s is with %s in room %s at " % (class_names[i], class_professor[i], room_names[room]), end="")
-        if days == 0:
-            print_timeA(time)
-        elif days == 1:
-            print_timeB(time)
-        print_days(days)
-        print()
+    if valid == True:
+        m = s.model()
+        for i in range(len(classes)):
+            room = m[vars[i][0]].as_long()
+            time = m[vars[i][1]].as_long()
+            days = m[vars[i][3]].as_long()
+            print("Class %s is with %s in room %s at " % (class_names[i], class_professor[i], room_names[room]), end="")
+            if days == 0:
+                print_timeA(time)
+            elif days == 1:
+                print_timeB(time)
+            print_days(days)
+            print()
 
 def print_timeA(t):
     if t == 0:
@@ -202,6 +206,7 @@ classesDone = False
 
 classes = []
 rooms = []
+infile.readline()
 while True:
     line = infile.readline()
     if not line:
