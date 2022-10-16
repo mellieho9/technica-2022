@@ -1,7 +1,7 @@
 #  An Automated Assistant for Course Management
 A Python algorithm that utilizes Z3-Solver to automatically assign the appropriate time slot and location for a given course
 
-## Background
+## Background 💡
 
 Course scheduling is a real problem at many universities, as it is difficult to account for multiple factors like instructor availability, room sizes, etc., while making sure that all classes are eventually scheduled. Since much of this process is still done manually for departments at UMD, we wanted to come up with an automated solution to satisfy scheduling requirements with less intensive manual effort. 
 
@@ -11,6 +11,7 @@ Course scheduling is a real problem at many universities, as it is difficult to 
 - [x] Increase the parameters to include professor who will teach the course
 - [x] Add in code to make separate schedules for lectures and discussions
 - [x] Visualize results onto Google Calendar
+- [ ] Add in code to automate importing the calendar.csv to Google Calendar (Ongoing)
 
 ## What's next  🧩
 - Add in code to schedule time slots for longer courses (i.e. labs that are over 75 minutes long)
