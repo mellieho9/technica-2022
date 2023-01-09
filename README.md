@@ -19,7 +19,8 @@ Course scheduling is a real problem at many universities, as it is difficult to 
 - Add in code to prevent putting small classes in big lecture halls
 - Add in code to allow multiple lectures and multiple discussions for one class to happen at different classes and buildings
 - Add in a Professor class to account for professor's time and location preferences
-- Deploy the algorithm as a function onto a functioning web app
+- Deploy the algorithm as a function onto a functioning web app 
+- Reconfigure input cell to enable program to accept CSV, JSON, and text file
 
 ## Technologies used so far  🛠️
 - Google Colab
